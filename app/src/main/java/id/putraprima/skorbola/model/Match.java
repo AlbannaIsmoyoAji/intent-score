@@ -17,12 +17,12 @@ public class Match implements Parcelable{
     private int awayScore = 0;
 
     public void addHomeScore(String name, String time){
-        homeScorer.add(name + ", " + time);
+        homeScorer.add(name + "' " + time);
         homeScore++;
     }
 
     public void addAwayScore(String name, String time){
-        awayScorer.add(name + ", " + time);
+        awayScorer.add(name + "' " + time);
         awayScore++;
     }
 
